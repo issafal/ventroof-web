@@ -1,0 +1,11 @@
+# Configuración de despliegue de ventroof.es en Netlify.
+# Sitio estático (HTML): no hay proceso de "build", se publica la raíz tal cual.
+[build]
+  publish = "."
+
+# Fuerza HTTPS y cabeceras básicas de seguridad.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
