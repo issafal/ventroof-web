@@ -95,6 +95,7 @@
       <a href="#aplicacion" class="py-3 border-b border-gray-100 hover:text-[color:var(--vt-green)]">Applications</a>
       <a href="https://prescriptor.ventroof.es" target="_blank" rel="noopener" class="py-3 border-b border-gray-100 hover:text-[color:var(--vt-green)]">Générateur de prescription</a>
       <a href="#contacto" class="py-3 mt-2 btn-primary text-white text-center rounded-md">Contact</a>
+      <div class="py-3 mt-1 text-center text-sm text-gray-500"><a href="/" class="hover:text-[color:var(--vt-green)]">ES</a> &middot; <span class="font-semibold text-[color:var(--vt-green)]">FR</span></div>
     </div>
   </div>
 </nav>
@@ -118,9 +119,9 @@
       <a href="#contacto" class="underline" style="color:var(--vt-green)">Écrivez-nous</a> : nous adaptons la justification à votre réglementation.
     </p>
     <div class="mt-10 flex items-center gap-6 text-sm text-gray-500">
-      <span>Distributeur exclusif</span>
+      <span>Distributeur officiel Evertile</span>
       <img src="/img/evertile-logo.webp" alt="Evertile" class="h-7 opacity-80" width="411" height="108" loading="eager" decoding="async">
-      <span class="hidden sm:inline">Espagne &middot; Portugal</span>
+      <span class="hidden sm:inline">Espagne &middot; Portugal &middot; International</span>
     </div>
   </div>
   <div>
@@ -242,32 +243,74 @@
     <div class="border border-gray-200 p-7 rounded-lg card-hover"><h3 class="font-bold mb-2 vt-green">Bureaux d'études</h3><p class="text-sm text-gray-600 leading-relaxed">Système prescriptible avec fiche technique complète, calcul thermique et validation d'un ingénieur indépendant. Réduit les couches et la complexité dans le développement du projet.</p></div>
     <div class="border border-gray-200 p-7 rounded-lg card-hover"><h3 class="font-bold mb-2 vt-green">Cabinets d'architecture</h3><p class="text-sm text-gray-600 leading-relaxed">Esthétique de la tuile avec la légèreté et la rapidité de la construction industrialisée. Compatible avec toutes les finitions : COPPO, EVOQ, SHINGLE, EVERTECH, EVERGLAZE, COPPO-TECH.</p></div>
     <div class="border border-gray-200 p-7 rounded-lg card-hover"><h3 class="font-bold mb-2 vt-green">Installateurs certifiés</h3><p class="text-sm text-gray-600 leading-relaxed">Programme de certification VENTROOF : prix préférentiel, formation technique et orientation de projets. Consultez les conditions.</p></div>
-    <div class="border border-gray-200 p-7 rounded-lg card-hover"><h3 class="font-bold mb-2 vt-green">Distributeurs</h3><p class="text-sm text-gray-600 leading-relaxed">Ligne de toiture différenciée pour les négoces de matériaux dans les zones sans couverture propre. Distributeur exclusif d'Evertile en Espagne et au Portugal.</p></div>
+    <div class="border border-gray-200 p-7 rounded-lg card-hover"><h3 class="font-bold mb-2 vt-green">Distributeurs</h3><p class="text-sm text-gray-600 leading-relaxed">Ligne de toiture différenciée pour les négoces de matériaux dans les zones sans couverture propre. Distributeur officiel d'Evertile en Espagne et au Portugal ; projets à l'international sur demande.</p></div>
   </div>
 </section>
 
 <section id="contacto" class="bg-vt-green text-white py-20 md:py-24">
   <div class="max-w-4xl mx-auto px-6 text-center">
     <h2 class="text-3xl md:text-4xl font-extrabold mb-5 leading-tight">Parlons de votre projet ?</h2>
-    <p class="text-lg mb-10 opacity-95 max-w-2xl mx-auto leading-relaxed">Conseil technique, dossier complet et fiche technique disponibles sur demande. Distributeur exclusif Evertile en Espagne et au Portugal.</p>
+    <p class="text-lg mb-10 opacity-95 max-w-2xl mx-auto leading-relaxed">Conseil technique, dossier complet et fiche technique disponibles sur demande. Distributeur officiel Evertile ; projets en Espagne, au Portugal et à l'international.</p>
 
-    <div class="mb-7">
-      <p class="text-xs uppercase tracking-[0.18em] mb-3 opacity-80 font-semibold">Votre profil (optionnel)</p>
-      <div class="flex flex-wrap gap-2 justify-center">
-        <button type="button" class="perfil-pill px-5 py-2 rounded-full border-2 border-white/50 text-white text-sm font-medium hover:border-white transition" data-perfil="Bureau d'études">Bureau d'études</button>
-        <button type="button" class="perfil-pill px-5 py-2 rounded-full border-2 border-white/50 text-white text-sm font-medium hover:border-white transition" data-perfil="Architecte">Architecte</button>
-        <button type="button" class="perfil-pill px-5 py-2 rounded-full border-2 border-white/50 text-white text-sm font-medium hover:border-white transition" data-perfil="Installateur">Installateur</button>
-        <button type="button" class="perfil-pill px-5 py-2 rounded-full border-2 border-white/50 text-white text-sm font-medium hover:border-white transition" data-perfil="Distributeur">Distributeur</button>
-        <button type="button" class="perfil-pill px-5 py-2 rounded-full border-2 border-white/50 text-white text-sm font-medium hover:border-white transition" data-perfil="Autre">Autre</button>
-      </div>
-      <p id="perfil-status" class="text-sm mt-4 opacity-95 font-medium min-h-[1.25rem]" aria-live="polite"></p>
+    
+
+    <div style="background:#fff;border-radius:14px;padding:24px;max-width:680px;margin:24px auto;text-align:left;color:#1F2937;">
+  <h3 style="margin:0 0 4px;color:#0F172A;">Demander des informations techniques</h3>
+  <p style="margin:0 0 16px;color:#6b7280;font-size:.95rem;">Parlez-nous de votre projet ; nous vous répondrons rapidement.</p>
+  <form id="fr-contact">
+    <input type="hidden" name="access_key" value="868eca69-be60-44f7-a0c0-8f4e21e9f1e4">
+    <input type="hidden" name="subject" value="Nouvelle demande VENTROOF (FR)">
+    <input type="hidden" name="from_name" value="ventroof.es/fr">
+    <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+      <label style="font-size:.85rem;font-weight:600;display:block;">Nom et prénom
+        <input type="text" name="Nom" required style="width:100%;margin-top:4px;padding:10px 12px;border:1px solid #e5e7eb;border-radius:8px;font-size:1rem;"></label>
+      <label style="font-size:.85rem;font-weight:600;display:block;">Email <span style="color:#0E8A3E">*</span>
+        <input type="email" name="email" required placeholder="vous@bureau.com" style="width:100%;margin-top:4px;padding:10px 12px;border:1px solid #e5e7eb;border-radius:8px;font-size:1rem;"></label>
     </div>
-
-    <div style="background:#fff;border-radius:14px;padding:24px;max-width:680px;margin:24px 0;">
-  <h3 style="margin:0 0 12px;color:#0F172A;">Demander des informations techniques</h3>
-  <script src="https://js-eu1.hsforms.net/forms/embed/148636745.js" defer></script>
-  <div class="hs-form-frame" data-region="eu1" data-form-id="22f1b754-022d-433c-82b9-c7a954bee3bc" data-portal-id="148636745"></div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px;">
+      <label style="font-size:.85rem;font-weight:600;display:block;">Société / bureau
+        <input type="text" name="Societe" style="width:100%;margin-top:4px;padding:10px 12px;border:1px solid #e5e7eb;border-radius:8px;font-size:1rem;"></label>
+      <label style="font-size:.85rem;font-weight:600;display:block;">Téléphone
+        <input type="tel" name="Telephone" style="width:100%;margin-top:4px;padding:10px 12px;border:1px solid #e5e7eb;border-radius:8px;font-size:1rem;"></label>
+    </div>
+    <label style="font-size:.85rem;font-weight:600;display:block;margin-top:12px;">Votre profil
+      <select name="Profil" style="width:100%;margin-top:4px;padding:10px 12px;border:1px solid #e5e7eb;border-radius:8px;font-size:1rem;background:#fff;">
+        <option value="">— Sélectionner —</option>
+        <option>Bureau d'études</option>
+        <option>Architecte</option>
+        <option>Installateur</option>
+        <option>Distributeur</option>
+        <option>Autre</option>
+      </select></label>
+    <label style="font-size:.85rem;font-weight:600;display:block;margin-top:12px;">Pays du projet
+      <input type="text" name="Pays" placeholder="Ex. Sénégal, Côte d'Ivoire, France…" style="width:100%;margin-top:4px;padding:10px 12px;border:1px solid #e5e7eb;border-radius:8px;font-size:1rem;"></label>
+    <label style="font-size:.85rem;font-weight:600;display:block;margin-top:12px;">Message
+      <textarea name="Message" rows="3" style="width:100%;margin-top:4px;padding:10px 12px;border:1px solid #e5e7eb;border-radius:8px;font-size:1rem;"></textarea></label>
+    <label style="display:flex;gap:8px;align-items:flex-start;margin-top:14px;font-size:.8rem;color:#4b5563;font-weight:400;">
+      <input type="checkbox" required style="margin-top:3px;">
+      <span>J'accepte que Paneles y Revestimientos SCP (VENTROOF) traite mes données pour répondre à ma demande.</span></label>
+    <button type="submit" style="margin-top:16px;background:#0E8A3E;color:#fff;border:none;padding:12px 22px;border-radius:8px;font-weight:700;font-size:1rem;cursor:pointer;">Envoyer la demande</button>
+    <p id="fr-form-status" style="margin-top:10px;font-size:.9rem;font-weight:600;min-height:1.1rem;"></p>
+  </form>
 </div>
+<script>
+(function(){
+  var f=document.getElementById('fr-contact'); if(!f) return;
+  var st=document.getElementById('fr-form-status');
+  f.addEventListener('submit', async function(e){
+    e.preventDefault();
+    st.style.color='#4b5563'; st.textContent='Envoi…';
+    var data=Object.fromEntries(new FormData(f).entries());
+    try{
+      var r=await fetch('https://api.web3forms.com/submit',{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify(data)});
+      var j=await r.json();
+      if(j.success){ f.reset(); st.style.color='#0E8A3E'; st.textContent='Merci ! Votre demande a bien été envoyée. Nous vous répondrons rapidement.'; }
+      else { st.style.color='#B91C1C'; st.textContent='Une erreur est survenue. Réessayez ou écrivez à info@ventroof.es.'; }
+    }catch(err){ st.style.color='#B91C1C'; st.textContent='Erreur de connexion. Réessayez ou écrivez à info@ventroof.es.'; }
+  });
+})();
+</script>
 
     <div class="flex flex-col sm:flex-row gap-3 justify-center">
       <a id="email-cta" href="mailto:info@ventroof.es?subject=Consulta%20VENTROOF%20SYSTEM" class="email-link bg-white vt-green px-8 py-3.5 rounded-md font-bold hover:bg-gray-100 transition inline-flex items-center justify-center gap-2">
